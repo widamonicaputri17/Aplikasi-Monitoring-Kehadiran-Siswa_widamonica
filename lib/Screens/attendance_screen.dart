@@ -41,16 +41,20 @@ class AttendanceScreen extends StatelessWidget {
                   : null,
               style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.resolveWith<Color>(
-                    (states) {
-                      if (states.contains(MaterialState.disabled)) {
-                        return Colors.grey;
-                      }
-                      return Colors.green;
-                    },
-                  ),
-                  textStyle: MaterialStateProperty.all<TextStyle>(
-                    const TextStyle(color: Colors.black),
-                  )),
+                (states) {
+                  if (states.contains(MaterialState.disabled)) {
+                    return Colors.grey;
+                  }
+                  return Colors.green;
+                },
+              ), foregroundColor: MaterialStateProperty.resolveWith<Color>(
+                (states) {
+                  if (states.contains(MaterialState.disabled)) {
+                    return Colors.black; // Warna teks saat tombol dinonaktifkan
+                  }
+                  return Colors.white; // Warna teks saat tombol aktif
+                },
+              )),
               child: const Text('Simpan Kehadiran'),
             ),
           ),

@@ -18,12 +18,17 @@ class HistoryScreen extends StatelessWidget {
           itemBuilder: (ctx, index) {
             final record = history[index];
             return Card(
+              color: Colors.green, // Warna latar belakang kolom (hijau)
               child: ListTile(
                 title: Text(
                   '${record['date'].day} ${_getMonthName(record['date'].month)} ${record['date'].year}',
+                  style: const TextStyle(
+                      color: Colors.white), // Warna teks putih agar kontras
                 ),
                 subtitle: Text(
                   'Hadir: ${record['present']}, Tidak Hadir: ${record['absent']}',
+                  style: const TextStyle(
+                      color: Colors.white), // Warna teks putih agar kontras
                 ),
               ),
             );
