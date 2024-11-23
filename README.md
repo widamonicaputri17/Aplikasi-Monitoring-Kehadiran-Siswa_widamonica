@@ -1,16 +1,7 @@
-# kehadiran_siswa
+# WIDA MONICA PUTRI {362358302008}
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot 2024-11-23 174233](https://github.com/user-attachments/assets/8a97f9c4-976f-4d25-ba9d-76f1d250263f)
+#
+![Screenshot 2024-11-23 174218](https://github.com/user-attachments/assets/ae0f2550-8c81-4bc7-9656-aea5ea1f9e93)
+#
+![Screenshot 2024-11-23 174251](https://github.com/user-attachments/assets/1d524675-20f2-404b-9998-bd9fb09d866f)
